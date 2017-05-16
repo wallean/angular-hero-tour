@@ -38,6 +38,7 @@
         }
       },
       rxjs: {
+        main:'Rx.js',// without this you will get a 'node_modules/rxjs/' 404 error
         defaultExtension: 'js'
       }
     }

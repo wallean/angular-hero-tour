@@ -28,16 +28,16 @@ import { HeroSearchComponent } from "./component/heroSearchComponent/hero-search
         HeroDetailComponent,
         HeroesComponent,
         DashboardComponent
-        // ,
-        // HeroSearchComponent
+        ,
+        HeroSearchComponent
     ],
     bootstrap: [
         AppComponent
     ],
     providers: [
         HeroService
-        // ,
-        // HeroSearchService
+        ,
+        HeroSearchService
     ]
 })
 export class AppModule {
